@@ -15,15 +15,15 @@ const pottaOne = Potta_One({
   weight: "400",
 });
 
-const TITLE = "Next.js Phaser Tic Tac Toe";
-const DESCRIPTION = "Next.js Phaser Tic Tac Toe by minominolyly.";
+const TITLE = "Next.js Phaser Maze";
+const DESCRIPTION = "Next.js Phaser Maze by minominolyly.";
 const EYECATCH = `${AppConfig.BASE_URL}/images/eyecatch.png`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(AppConfig.BASE_URL),
   title: {
     default: TITLE,
-    template: "%s / Next.js Phaser Tic Tac Toe",
+    template: "%s / Next.js Phaser Maze",
   },
   description: DESCRIPTION,
   robots: {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: TITLE,
-      template: "%s / Next.js Phaser Tic Tac Toe",
+      template: "%s / Next.js Phaser Maze",
     },
     type: "website",
     url: `${AppConfig.BASE_URL}`,
